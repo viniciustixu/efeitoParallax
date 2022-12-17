@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); /* font-family: 'Courgette', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /* font-family: 'Sriracha', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sriracha', cursive;
+}
+
+
+/*----------HEADER----------*/
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3% 0px;
+}
+
+header > h1 {
+    font-size: 3em;
+    font-family: 'Courgette', cursive;
+}
+
+
+/*----------BODDY----------*/
+
+.parallax {
+    background-image: url(../imagens/background001.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    height: 30vh;
+    background-color: purple;
+    padding: 10px;
+}
+
+.parallax > nav {
+    background-color: rgb(0 0 0 / 41%);
+    background-size: 100% 100%;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    left: 250px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.parallax2 {
+    background-image: url(../imagens/background002.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    height: 30vh;
+    background-color: purple;
+    padding: 10px;
+}
+
+#nav2 {
+    background-color: rgb(0 0 0 / 41%);
+    background-size: 100% 100%;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    left: 250px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.trecho {
+    padding: 30px 0px 30px 15px;
+    font-size: 1.2em;
+}
+
+/*----------BODDY----------*/
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
